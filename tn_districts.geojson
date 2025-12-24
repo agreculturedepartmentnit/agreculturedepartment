@@ -1,0 +1,104 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "district": "Ariyalur"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.8,
+              11.0
+            ],
+            [
+              79.3,
+              11.0
+            ],
+            [
+              79.3,
+              11.5
+            ],
+            [
+              78.8,
+              11.5
+            ],
+            [
+              78.8,
+              11.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "district": "Coimbatore"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.6,
+              10.7
+            ],
+            [
+              77.3,
+              10.7
+            ],
+            [
+              77.3,
+              11.4
+            ],
+            [
+              76.6,
+              11.4
+            ],
+            [
+              76.6,
+              10.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "district": "Thanjavur"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.0,
+              10.6
+            ],
+            [
+              79.8,
+              10.6
+            ],
+            [
+              79.8,
+              11.2
+            ],
+            [
+              79.0,
+              11.2
+            ],
+            [
+              79.0,
+              10.6
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

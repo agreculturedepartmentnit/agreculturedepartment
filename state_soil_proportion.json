@@ -1,0 +1,26 @@
+[
+  {
+    "soil": "Red",
+    "percent": 39.34
+  },
+  {
+    "soil": "Brown",
+    "percent": 37.89
+  },
+  {
+    "soil": "Black",
+    "percent": 16.38
+  },
+  {
+    "soil": "Grey",
+    "percent": 3.51
+  },
+  {
+    "soil": "Mixed",
+    "percent": 2.03
+  },
+  {
+    "soil": "Alluvial",
+    "percent": 0.86
+  }
+]

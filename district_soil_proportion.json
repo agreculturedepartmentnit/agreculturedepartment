@@ -1,0 +1,44 @@
+{
+  "Ariyalur": [
+    {
+      "soil": "Red",
+      "percent": 62
+    },
+    {
+      "soil": "Black",
+      "percent": 25
+    },
+    {
+      "soil": "Mixed",
+      "percent": 13
+    }
+  ],
+  "Coimbatore": [
+    {
+      "soil": "Brown",
+      "percent": 55
+    },
+    {
+      "soil": "Red",
+      "percent": 35
+    },
+    {
+      "soil": "Grey",
+      "percent": 10
+    }
+  ],
+  "Thanjavur": [
+    {
+      "soil": "Alluvial",
+      "percent": 60
+    },
+    {
+      "soil": "Red",
+      "percent": 25
+    },
+    {
+      "soil": "Brown",
+      "percent": 15
+    }
+  ]
+}

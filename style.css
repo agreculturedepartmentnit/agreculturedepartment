@@ -1,0 +1,52 @@
+:root{
+  --border:#e5e7eb;
+  --text:#111827;
+  --muted:#4b5563;
+  --bg:#ffffff;
+  --card:#fafafa;
+  --accent:#0f766e;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:var(--bg)}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.topbar{
+  padding:14px 16px;border-bottom:1px solid var(--border);
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center;
+}
+.brand h1{margin:0;font-size:18px;line-height:1.2}
+.brand p{margin:4px 0 0;color:var(--muted);font-size:13px}
+nav a{margin-left:10px;color:var(--text);padding:8px 10px;border-radius:10px}
+nav a.active{background:rgba(15,118,110,.12);color:var(--accent);font-weight:700}
+.container{max-width:1100px;margin:0 auto;padding:18px 16px}
+.grid{display:grid;gap:14px}
+.grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.grid.cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:920px){.grid.cols-3{grid-template-columns:1fr}.grid.cols-2{grid-template-columns:1fr}}
+.card{
+  border:1px solid var(--border);border-radius:16px;background:var(--card);padding:14px;
+  box-shadow:0 1px 0 rgba(0,0,0,.03);
+}
+.card h2,.card h3{margin:0 0 8px}
+.card p{margin:8px 0;color:var(--muted)}
+.badge{display:inline-block;background:rgba(15,118,110,.12);color:var(--accent);padding:4px 10px;border-radius:999px;font-size:12px;font-weight:600}
+.btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+.btn{
+  display:inline-block;background:var(--accent);color:#fff;padding:10px 12px;border-radius:12px;
+  font-weight:700;
+}
+.btn.secondary{background:#111827}
+.small{font-size:12px;color:var(--muted)}
+.footer{border-top:1px solid var(--border);padding:14px 16px;color:var(--muted);font-size:12px}
+
+.layout{display:grid;grid-template-columns:340px 1fr;height:calc(100vh - 76px)}
+@media(max-width:920px){.layout{grid-template-columns:1fr;height:auto}}
+.sidebar{padding:14px 16px;border-right:1px solid var(--border);overflow:auto}
+.mapwrap{height:100%}
+#map{height:100%;width:100%}
+.table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.table th,.table td{padding:10px 10px;border-bottom:1px solid var(--border);text-align:left;font-size:14px}
+.table th{background:#f3f4f6}
+.table tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:12px 0}
+input[type="search"]{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:12px}
