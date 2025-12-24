@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Agriculture Department – Nehru Institute of Technology | Districts</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>Agriculture Department – Nehru Institute of Technology</h1>
+      <p>Tamil Nadu Soil Map • Soil Types • District-wise Information</p>
+    </div>
+    
+    <nav>
+      <a href="index.html" class="">Home</a>
+      <a href="map.html" class="">Soil Map</a>
+      <a href="soils.html" class="">Soil Types</a>
+      <a href="districts.html" class="active">Districts</a>
+      <a href="about.html" class="">About</a>
+    </nav>
+    
+  </header>
+
+  
+<main class="container">
+  <div class="card">
+    <h2>District-wise Soil Information</h2>
+    <p>Search and open district pages. This template includes 3 sample districts. Add the remaining districts and connect real soil % data.</p>
+    <input type="search" id="q" placeholder="Search district (e.g., Coimbatore)" />
+  </div>
+
+  <div class="card" style="margin-top:14px">
+    <table class="table" id="districtTable">
+      <thead>
+        <tr>
+          <th>District</th>
+          <th>Top Soil Type (sample)</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="small" style="margin-top:8px">Data file: <code>data/districts_index.json</code></div>
+  </div>
+</main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div><strong>Agriculture Department – Nehru Institute of Technology</strong></div>
+      <div class="small">Note: This is a student/academic website template. Replace sample datasets with official GIS/atlas data for accuracy.</div>
+    </div>
+  </footer>
+  <script src="js/districts.js"></script>
+</body>
+</html>
