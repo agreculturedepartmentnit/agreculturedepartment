@@ -1,0 +1,20 @@
+[
+  {
+    "district": "Ariyalur",
+    "slug": "ariyalur",
+    "top_soil": "Red (sample)",
+    "pdf": ""
+  },
+  {
+    "district": "Coimbatore",
+    "slug": "coimbatore",
+    "top_soil": "Brown (sample)",
+    "pdf": ""
+  },
+  {
+    "district": "Thanjavur",
+    "slug": "thanjavur",
+    "top_soil": "Alluvial (sample)",
+    "pdf": ""
+  }
+]
